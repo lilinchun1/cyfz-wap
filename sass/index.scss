@@ -1,6 +1,91 @@
 @charset "UTF-8";
-html { font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 62.5%; }
-body { margin: 0; font-size: 1.4rem; line-height: 1.5; color: #333333; background-color: white; height: 100%; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
+@import "icon/*.png";
 
+$font-normal:#333;
+*{margin: 0;padding: 0;}
+html { font-family:"Microsoft Yahei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 62.5%; }
+body { line-height: 1.5; color: $font-normal;  height: 100%; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
+a{color: $font-normal; text-decoration: none;}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
 audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
+
+li{list-style-type: none;}
+
+.wrap-body{
+  margin: 0 auto;
+  width: 600px;
+  background: #ffffff;
+  }
+.header{
+  height: 81px;
+  background: url(../img/logo.png) 0 0 no-repeat;
+    .header-index,.header-login{
+      margin-top: 33px;
+      width: 96px;
+      height: 32px;
+      float: right;
+      font-size: 1.8em;
+      font-weight: bold;
+      text-indent: 42px;
+      line-height: 40px;
+
+    }
+    .header-index{
+      @include icon-sprite(house);
+    }
+    .header-login{
+      @include icon-sprite(people);
+    }
+}
+.naver{
+  height: 60px;
+  background: #095fb3;
+}
+.nav-list-1{
+  position: relative;
+  height: 60px;
+    li{
+      width: 25%;
+      height: 60px;
+      float: left;
+      line-height: 60px;
+      text-align: center;
+        a{
+          display: block;
+          color: #ffffff;
+          font-size: 1.8em;
+        }
+        &:hover{
+          background: #0267cc;
+        }
+        &:hover .nav-list-2{
+          display: block;
+        }
+    }
+
+}
+.nav-list-2{
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #efefef;
+    li{
+      height: 48px;
+      line-height: 48px;
+        a{
+          color: #333333;
+          font-size: 1.6em;
+        }
+        &:hover{
+          background: none;
+          border-bottom: 2px solid #fe9901;
+        }
+    }
+}
+
+.slider-wrap{
+  background: #cccccc;
+  height: 300px;}
