@@ -1,6 +1,6 @@
 @charset "UTF-8";
+$icon-spacing:10px;
 @import "icon/*.png";
-
 $font-normal:#333;
 *{margin: 0;padding: 0;}
 html { font-family:"Microsoft Yahei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 62.5%; }
@@ -11,54 +11,64 @@ audio, canvas, progress, video { display: inline-block; vertical-align: baseline
 h1,h2,h3,h4,h5,h6{
   font-weight: normal;}
 img{
-  width: 100%;
-  max-width: 100%;}
+  width: 100%;max-width: 100%;}
 li{list-style-type: none;}
 
 .wrap-body{
   margin: 0 auto;
-  width: 600px;
-  //width: 100%;
+  width: 100%;
   background: #ffffff;
   }
 .header{
-  height: 81px;
-  background: url(../img/logo.png) 0 0 no-repeat;
+  height: 64px;
     .header-index,.header-login{
-      margin-top: 33px;
-      width: 96px;
-      height: 32px;
+      margin-top: 24px;
+      height: 26px;
       float: right;
-      font-size: 1.8em;
+      font-size: 1.4em;
       font-weight: bold;
-      text-indent: 42px;
-      line-height: 40px;
+      text-indent: 6px;
+      line-height: 20px;
 
     }
-    .header-index{
-      @include icon-sprite(house);
-    }
     .header-login{
-      @include icon-sprite(people);
+      margin-right: 5px;
+    }
+    .logo-pic{
+      margin-top: 10px;
+      float: left;
+      width: 188px;
+    }
+    .logo-house{
+      margin-top: 24px;
+      float: right;
+      width: 17px;
+    }
+    .logo-people{
+      margin-left: 5px;
+      margin-top: 24px;
+      float: right;
+      width: 14px;
     }
 }
+
 .naver{
-  height: 60px;
+  height: 48px;
   background: #095fb3;
 }
 .nav-list-1{
   position: relative;
-  height: 60px;
+  height: 48px;
     li{
       width: 25%;
-      height: 60px;
+      height: 48px;
       float: left;
-      line-height: 60px;
+      line-height: 48px;
       text-align: center;
         a{
           display: block;
           color: #ffffff;
-          font-size: 1.8em;
+          font-size: 1.4em;
         }
         &:hover{
           background: #0267cc;
@@ -73,7 +83,7 @@ li{list-style-type: none;}
   display: none;
   position: absolute;
   z-index: 99;
-  top: 60px;
+  top: 48px;
   left: 0;
   width: 100%;
   height: 50px;
@@ -83,7 +93,7 @@ li{list-style-type: none;}
       line-height: 48px;
         a{
           color: #333333;
-          font-size: 1.6em;
+          font-size: 1.2em;
         }
         &:hover{
           background: none;
@@ -97,6 +107,9 @@ li{list-style-type: none;}
 }
 
 .slider-wrap{
+  width: 100%;
+
+  background: #eeeeee;
   overflow: hidden;}
 .list-wrap{
   overflow: hidden;
@@ -107,57 +120,56 @@ li{list-style-type: none;}
   width: 95.666666%;
   overflow: hidden;
   li{
-      padding-bottom: 30px;
-      min-height: 150px;
+      padding-bottom: 22px;
+      min-height: 144px;
       border-bottom: 1px solid #ccc;}
 }
 .tw-list-pic{
-  margin: 30px 20px 1px 24px;
-  width: 160px;
-  height: 120px;
+  margin: 22px 20px 1px 18px;
+  width: 130px;
+  height: 98px;
   float: left;}
 .wt-list-tt {
-  padding: 30px 20px 0 0;
-  font-size: 2.4em;
-  line-height: 32px;
+  padding: 22px 20px 0 0;
+  font-size: 1.6em;
+  line-height: 22px;
 }
 .wt-list-time{
   margin-top: 4px;
   margin-right: 30px;
   text-align: right;
-  font-size: 1.8em;
+  font-size: 1.4em;
   color: #999999;
 }
 .list-more{
-  height: 50px;
-  line-height: 50px;
-  font-size: 1.4em;
+  height: 38px;
+  line-height: 38px;
+  font-size: 1.2em;
   text-align: center;
 }
 .footer{
   overflow: hidden;}
 .footer-nav{
-  height: 50px;
   background: #efefef;
   border-top: 2px solid #095fb3;
   text-align: center;
     a{
-      padding: 16px;
-      font-size: 1.6em;
+      padding: 10px;
+      font-size: 1.4em;
       display: inline-block;}
 }
 .footer-info{
-  height: 56px;
-  line-height: 56px;
+  height: 45px;
+  line-height: 45px;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.0em;
 }
 .apply{
   position: relative;
-  height: 75px;
+  height: 60px;
     .left,.right{
       width: 50%;
-      height: 75px;
+      height: 60px;
       background: #ff6600;
       &:active{
           opacity: .7;
@@ -181,6 +193,6 @@ li{list-style-type: none;}
     top: 12px;
     left: 50%;
     width: 2px;
-    height: 52px;
+    height: 42px;
     background: #ff944d;}
 }
