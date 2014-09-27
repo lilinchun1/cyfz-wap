@@ -8,7 +8,11 @@ body { line-height: 1.5; color: $font-normal;  height: 100%; overflow-x: hidden;
 a{color: $font-normal; text-decoration: none;}
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
 audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
-
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;}
+img{
+  width: 100%;
+  max-width: 100%;}
 li{list-style-type: none;}
 
 .wrap-body{
@@ -85,7 +89,96 @@ li{list-style-type: none;}
           border-bottom: 2px solid #fe9901;
         }
     }
+    .active{
+      background: none;
+      border-bottom: 2px solid #fe9901;
+    }
 }
 
 .slider-wrap{
   height: 300px;}
+.list-wrap{
+  overflow: hidden;
+
+}
+.tw-list{
+  overflow: hidden;
+    li{
+      width: 95.666666%;
+      height: 180px;
+      border-bottom: 1px solid #ccc;}
+}
+.tw-list-pic{
+  margin: 30px 0 0 24px;
+  width: 160px;
+  height: 120px;
+  float: left;}
+.wt-list-tt {
+  margin: 30px 0 0 20px;
+  float: left;
+  width: 342px;
+  font-size: 2.4em;
+  line-height: 32px;
+}
+.wt-list-time{
+  margin-right: 30px;
+  float: right;
+  font-size: 1.8em;
+  color: #999999;
+}
+.list-more{
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+}
+.footer{
+  overflow: hidden;}
+.footer-nav{
+  height: 50px;
+  background: #efefef;
+  border-top: 2px solid #095fb3;
+  text-align: center;
+    a{
+      padding: 16px;
+      font-size: 1.6em;
+      display: inline-block;}
+}
+.footer-info{
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  font-size: 1.2em;
+}
+.apply{
+  position: relative;
+  height: 75px;
+    .left,.right{
+      width: 50%;
+      height: 75px;
+      background: #ff6600;
+      &:active{
+          opacity: .7;
+        }
+    }
+    .left {
+      float: left;
+      background-image: url("../img/bm.png");
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+
+    }
+    .right {
+      float: right;
+      background-image: url("../img/qd.png");
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+    }
+  .line{
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    width: 2px;
+    height: 52px;
+    background: #ff944d;}
+}
