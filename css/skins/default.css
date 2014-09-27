@@ -6,7 +6,7 @@
 .seven_default .seven_bt_preview { top:45px;}
 .seven_default .seven_bullet_control #seven_bullet_viewport{ margin-top:0px;}
 .seven_default .seven_bullet_control #seven_bullet_inner_viewport{
-    float: right; padding:10px;display:inline-block;}
+    float: right; padding:15px;display:inline-block;}
 .seven_default #left_btn{ width:24px;height:36px;left:10px;}
 .seven_default #right_btn{ width:24px;height:36px;right:10px;}
 .seven_default .seven_hcarousel.seven_bullet{ margin-top:20px !important;}
