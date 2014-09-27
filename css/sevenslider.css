@@ -31,13 +31,15 @@
 .seven_container .seven_filter_bt{width:40px;height:40px;margin:9px 7px;overflow:hidden;}
 .seven_container .seven_bt_container{}
 .seven_container .seven_bt_slide{width:40px;height:40px;float:left;overflow:hidden;}
-.seven_container .seven_preview_img{width:100px;}
+.seven_container .seven_preview_img{
+    display: none;}
 .seven_container .seven_bullet_control{height:35px; width:100%; position: absolute;z-index: 20; bottom:0;}
 .seven_container .seven_bullet_control #seven_bullet_viewport{width:100%; height:100%; margin:0; padding:0;}
 .seven_container .seven_bullet_control #seven_bullet_inner_viewport{ display:inline-block;}
 .seven_container .seven_circle{width:11px;height:11px;margin:0 5px 0 5px;cursor:pointer; display:inline-block; position:relative;}
 .seven_container .seven_circle:hover{background-position: 100% 0;}
-.seven_container .seven_circle.active,.seven_container .seven_circle.active:hover{background-position:0;}
+.seven_container .seven_circle.active,.seven_container .seven_circle.active:hover{background-position:0;
+    background-color: #ff6600;}
 .seven_container .seven_a_play{display:inline-block;margin:0 5px 0 5px;cursor:pointer;background-position:100% 0;}
 .seven_container .seven_a_pause{display:inline-block;margin:0 5px 0 5px;cursor:pointer;background-position:0% 0;}
 /*css for prev/next slide container*/
