@@ -54,14 +54,15 @@
         <div class="seven_container">
             <div id="seven_viewport" class="seven_viewport">
                 <div class="seven_slider">
-                    <div class="seven_slide" data-caption="1" data-description="11111" data-link="#" image-src="img/001.jpg" data-animation="1"></div>
-                    <div class="seven_slide" data-caption="2" data-description="22222" data-link="#" image-src="img/002.jpg" data-animation="1"></div>
-                    <div class="seven_slide" data-caption="3" data-description="33333" data-link="#" image-src="img/003.jpg" data-animation="1"></div>
-                </div>
+                    <div class="seven_slide" data-caption="We will defend the world at all cost" data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, "image-src="img/001.jpg"></div>
+                    <div class="seven_slide" data-caption="I love Rock & Roll" data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, " image-src="img/002.jpg" video-src="http://"></div>
+                    <div class="seven_slide" data-caption="Who will own the world?" data-description="Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, Lorem ipsum dolor sit amet, this is just demo text for showing purposses, " data-link="http://seven.samcholi.com/plugins/sevenslider" image-src="img/003.jpg" data-animation="1"></div>        </div>
+            </div>
             <a id="left_btn" class="seven_nav">Previous Slide</a>
             <a id="right_btn" class="seven_nav right_btn">Next Slide</a>
         </div>
     </section>
+
 </div>
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/jquery.seven.min.js"></script>
@@ -71,22 +72,21 @@
         var tb=$(".seven_container").superseven({
             width:600,
             height:300,
-            caption_animation: 2,
-            fullwidth:false,
-            animation:0,
             autoplay:true,
-            interval:3,
-            progressbar:true,
-            progressbartype:"linear",
-            bullet:true,
-            thumbnail:false,
-            repeat_mode:true,
+            interval:5,
+            fullwidth:false,
             responsive:true,
+            progressbar:true,
             swipe:true,
-            keyboard:true,
-            skin:"default",
-            lightbox:false		});
-
+            keyboard:false,
+            scrollmode:false,
+            animation:0,
+            navtype:0,
+            repeat_mode:true,
+            skin:'default',
+            lightbox:false,
+            pause_on_hover:true
+        });
     });
 </script>
 </body>
