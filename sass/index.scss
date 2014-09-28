@@ -1,6 +1,4 @@
 @charset "UTF-8";
-$icon-spacing:10px;
-@import "icon/*.png";
 $font-normal:#333;
 *{margin: 0;padding: 0;}
 html { font-family:"Microsoft Yahei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-size: 62.5%; }
@@ -65,7 +63,7 @@ li{list-style-type: none;}
       float: left;
       line-height: 48px;
       text-align: center;
-        a{
+        span{
           display: block;
           color: #ffffff;
           font-size: 1.4em;
@@ -73,9 +71,9 @@ li{list-style-type: none;}
         &:hover{
           background: #0267cc;
         }
-        &:hover .nav-list-2{
+        /*&:hover .nav-list-2{
           display: block;
-        }
+        }*/
     }
 
 }
@@ -195,4 +193,17 @@ li{list-style-type: none;}
     width: 2px;
     height: 42px;
     background: #ff944d;}
+}
+.show-wrap{
+  padding-bottom: 15px;
+  margin: 0 auto;
+  width: 90%;
+    h2{
+      margin: 15px 0;
+      font-size: 2.4em;
+      text-align: center;
+    }
+    p{
+      font-size: 1.4em;
+    }
 }
