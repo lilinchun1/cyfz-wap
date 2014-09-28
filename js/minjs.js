@@ -26,8 +26,8 @@ window.onload = function () {
         ulNb[3].previousElementSibling.onclick = function () {
             ulNb[0].style.display = "none";
             ulNb[1].style.display = "none";
-            ulNb[2].style.display = "none";
-            ulNb[3].style.display = "block";
+            ulNb[2].style.display = "block";
+            ulNb[3].style.display = "none";
         };
 
     /*for( var i = 0; i < ulNb.length; i++){
