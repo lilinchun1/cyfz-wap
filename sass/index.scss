@@ -11,7 +11,8 @@ h1,h2,h3,h4,h5,h6{
 img{
   width: 100%;max-width: 100%;}
 li{list-style-type: none;}
-
+.fl{
+  float: left;}
 .wrap-body{
   margin: 0 auto;
   width: 100%;
@@ -207,4 +208,57 @@ li{list-style-type: none;}
     p{
       font-size: 1.4em;
     }
+}
+.member-wrap {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 95%;
+  overflow: hidden;
+}
+.member-zw{
+  position: relative;
+  height: 26px;
+  overflow: hidden;
+
+    .line{
+      position: absolute;
+      z-index: 1;
+      top: 12px;
+      height: 1px;
+      width: 100%;
+      border-top: 1px solid #000;}
+}
+.member-zw-h3{
+    position: relative;
+    z-index: 2;
+    margin: 0 40%;
+    height: 26px;
+    font-size: 2.2em;
+    line-height: 26px;
+    background: #fff;
+    text-align: center;
+}
+.member-zw-h3-long{
+  margin: 0 34%;
+}
+.member-inof{
+  padding-top: 30px;
+  overflow: hidden;
+    dd{
+      margin: 0 40px 0 52px;
+      float: left;
+      width: 80px;
+      height: 112px;
+      overflow: hidden;}
+    dt{
+      font-size: 1.4em;
+      line-height: 24px;
+    }
+}
+.member-inof-con{
+  margin: 20px auto;
+  width: 80%;
+  display: block;
+  font-size: 1.4em;
+  line-height: 24px;
 }
