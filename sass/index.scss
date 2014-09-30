@@ -309,3 +309,19 @@ li{list-style-type: none;}
     margin: 10px 0;
   }
 }
+.add-apply{
+  margin: 0px auto 20px auto;
+  width: 34%;
+  height: 38px;
+  background: #0267cc;
+    .bm-pic{
+      padding-top: 9px;
+      margin: 0 auto;
+      width: 90px;
+      height: 18px;
+      overflow: hidden;
+        img{
+          margin: 0;
+          height: 100%;}
+      }
+}
