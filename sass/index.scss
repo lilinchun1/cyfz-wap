@@ -409,3 +409,11 @@ li{list-style-type: none;}
     margin-right: 7%;
   }
 }
+.code-wrap{
+  margin: 30px auto;
+  overflow: hidden;
+    .code-pic{
+      margin: 0 auto;
+      width: 60%;
+    }
+}
