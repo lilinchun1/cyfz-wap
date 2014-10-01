@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>登陆</title>
+    <title>个人资料</title>
     <link rel="stylesheet" href="css/index.css"/>
     <script src="js/html5shiv-printshiv.min.js"></script>
 </head>
@@ -59,17 +59,22 @@
         <li><a href="">我的二维码</a></li>
         <li><a href="">修改密码</a></li>
     </ul>
-    <section class="login-wrap">
+    <section class="login-wrap login-wrap-change">
+
         <p>
-            <label for="user_name">用户名</label>
-            <input type="text" name="" id="user_name" class="input-tt"/>
+            <label for="user_phone">原密码</label>
+            <input type="text" name="" id="user_phone" class="input-tt"/>
         </p>
-       <p>
-           <label class="user_pass">密码</label>
-           <input type="text" name="" id="user_pass" class="input-tt"/>
-       </p>
         <p>
-            <button type="submit" class="input-btn">登陆</button>
+            <label class="user_email">新密码</label>
+            <input type="text" name="" id="user_email" class="input-tt"/>
+        </p>
+        <p>
+            <label class="user_qq">确认密码</label>
+            <input type="text" name="" id="user_qq" class="input-tt"/>
+        </p>
+        <p>
+            <button type="submit" class="input-btn">保存</button>
         </p>
     </section>
 
