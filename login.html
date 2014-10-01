@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>简介</title>
+    <title>登陆</title>
     <link rel="stylesheet" href="css/index.css"/>
     <script src="js/html5shiv-printshiv.min.js"></script>
 </head>
 <body>
+<script src="js/minjs.js"></script>
 <div class="wrap-body">
     <header class="header">
         <div class="logo-pic"><img src="img/logo.png" alt=""/></div>
@@ -50,26 +51,25 @@
                 </ul>
             </li>
         </ul>
+        <ul class="nav-list-3" id="J_nav_list3">
+            <li class="active"><a href="">个人资料</a></li>
+            <li><a href="">参加的活动</a></li>
+            <li><a href="">我的二维码</a></li>
+            <li><a href="">修改密码</a></li>
+        </ul>
     </nav>
-    <section class="show-wrap">
-        <h2>大连市创业发展研究会简介</h2>
-        <p>
-            大连市创业发展研究会（简称创发会）创始于2004年12月26日，正式成立于2009年6月28日，是经大连市民政局批准注册，大连市社会科学界联合会为主管单位，由创业单位、企业家、专家学者自愿组成的地方性、学术性、非营利性的社团组织。<br/>
-        2012年5月23日创发会被评为“全国先进社团”。 <br/>
-        2014年6月17日创发会当选为“大连市社会组织联合会副会长单位”。<br/><br/>
 
-        创发会文化<br/>
-        宗旨：共同学习  共献爱心   共享资源   共图发展<br/>
-        理念：学习、诚信、团结、共赢<br/>
-        使命：开创优秀企业家成长的摇篮<br/>
-        帮助创业者成就人生的梦想<br/>
-        愿景：成为大连市最具影响力的社团组织<br/>
-        会歌：《一路走来》<br/>
-        价值：提升个人素质        提高经管能力<br/>
-        结交良师益友        共享资源平台<br/>
-        成就人生梦想        实现幸福人生<br/>
+    <section class="login-wrap">
+        <p>
+            <label for="user_name">用户名</label>
+            <input type="text" name="" id="user_name" class="input-tt"/>
         </p>
+       <p>
+           <label class="user_pass">密码</label>
+           <input type="text" name="" id="user_pass" class="input-tt"/>
+       </p>
     </section>
+
     <footer class="footer">
         <nav class="footer-nav">
             <a href="">关于我们</a>
@@ -92,6 +92,5 @@
         <div class="line"></div>
     </div>
 </div>
-<script src="js/minjs.js"></script>
 </body>
 </html>
