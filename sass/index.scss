@@ -107,10 +107,9 @@ li{list-style-type: none;}
     }
 }
 .nav-list-3{
-    display: none;
-    position: absolute;
-    z-index: 99;
-    top: 112px;
+    position: relative;
+    z-index: 98;
+    //top: 112px;
     left: 0;
     width: 100%;
     height: 50px;
