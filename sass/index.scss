@@ -286,7 +286,8 @@ li{list-style-type: none;}
   margin: 0 34%;
 }
 .member-inof{
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   overflow: hidden;
     dd{
       margin: 0 40px 0 52px;
@@ -298,6 +299,9 @@ li{list-style-type: none;}
       font-size: 1.4em;
       line-height: 24px;
     }
+  &:last-of-type{
+    padding-bottom: 30px;
+  }
 }
 .member-inof-con{
   margin: 20px auto;
