@@ -422,12 +422,17 @@ li{list-style-type: none;}
   margin: 0 auto;
   height: 100%;
   text-align: center;
-  font-size: 1.6em;
-  color: #ffffff;
+
     i{
-      margin: 10px 8px 0 0;
+      margin: 16px 8px 0 0;
       width: 32px;
       height: 32px;
+      vertical-align: bottom;
       display: inline-block;
+    }
+    span{
+      font-size: 2em;
+      font-weight: bolder;
+      color: #ffffff;
     }
 }
