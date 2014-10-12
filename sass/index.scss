@@ -16,14 +16,15 @@ li{list-style-type: none;}
 %trans{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-out 0s;-ms-transition: all .3s ease-in-out 0s;
     -o-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;}
 .wrap-body{
+  padding-bottom: 40px;
   margin: 0 auto;
   width: 100%;
   background: #ffffff;
   }
 .header{
-  height: 64px;
+  height: 47px;
     .header-index,.header-login{
-      margin-top: 24px;
+      margin-top: 14px;
       height: 26px;
       float: right;
       font-size: 1.4em;
@@ -36,35 +37,34 @@ li{list-style-type: none;}
       margin-right: 5px;
     }
     .logo-pic{
-      margin-top: 10px;
       float: left;
       width: 188px;
     }
     .logo-house{
-      margin-top: 24px;
+      margin-top: 14px;
       float: right;
       width: 17px;
     }
     .logo-people{
       margin-left: 5px;
-      margin-top: 24px;
+      margin-top: 14px;
       float: right;
       width: 14px;
     }
 }
 
 .naver{
-  height: 48px;
+  height: 40px;
   background: #095fb3;
 }
 .nav-list-1{
   position: relative;
-  height: 48px;
+  height: 40px;
     li{
       width: 25%;
-      height: 48px;
+      height: 40px;
       float: left;
-      line-height: 48px;
+      line-height: 40px;
       text-align: center;
       @extend %trans;
       span{
@@ -85,14 +85,14 @@ li{list-style-type: none;}
   display: none;
   position: absolute;
   z-index: 99;
-  top: 48px;
+  top: 40px;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 35px;
   background: #efefef;
     li{
-      height: 48px;
-      line-height: 48px;
+      height: 35px;
+      line-height: 35px;
       border-bottom: 2px solid #efefef;
 
       a{
@@ -116,13 +116,13 @@ li{list-style-type: none;}
     //top: 112px;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 35px;
     background: #efefef;
   li{
       float: left;
       width: 25%;
-      height: 48px;
-      line-height: 48px;
+      height: 35px;
+      line-height: 35px;
       text-align: center;
       border-bottom: 2px solid #efefef;
       @extend %trans;
@@ -156,8 +156,8 @@ li{list-style-type: none;}
   width: 95.666666%;
   overflow: hidden;
   li{
-      padding-bottom: 22px;
-      min-height: 144px;
+      padding-bottom: 10px;
+      min-height: 124px;
       border-bottom: 1px solid #ccc;}
 }
 .tw-list-pic{
@@ -209,11 +209,13 @@ li{list-style-type: none;}
   font-size: 1.0em;
 }
 .apply{
-  position: relative;
-  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
     .left,.right{
       width: 50%;
-      height: 60px;
+      height: 40px;
       background: #ff6600;
       &:active{
           opacity: .7;
@@ -427,9 +429,8 @@ li{list-style-type: none;}
   margin: 0 auto;
   height: 100%;
   text-align: center;
-
     i{
-      margin: 16px 8px 0 0;
+      margin: 6px 8px 0 0;
       width: 32px;
       height: 32px;
       vertical-align: bottom;
