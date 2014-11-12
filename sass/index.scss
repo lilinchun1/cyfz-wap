@@ -433,15 +433,16 @@ li{list-style-type: none;}
   height: 100%;
   text-align: center;
     i{
-      margin: 6px 8px 0 0;
-      width: 32px;
-      height: 32px;
-      vertical-align: bottom;
+      margin: 0 8px 0 0;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
       display: inline-block;
     }
     span{
       font-size: 2em;
       font-weight: bolder;
       color: #ffffff;
+      line-height: 40px;
     }
 }
