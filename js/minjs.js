@@ -1,6 +1,7 @@
 /**
  * Created by llcly on 2014/9/28.
  */
+/*
 window.onload = function () {
     var navList1 = document.getElementById("J_nav_list1");
     var ulNb = navList1.getElementsByTagName("ul");
@@ -35,6 +36,7 @@ window.onload = function () {
 
 };
 
+*/
 
 
 

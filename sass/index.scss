@@ -164,6 +164,7 @@ li{list-style-type: none;}
   background: #eeeeee;
   overflow: hidden;}
 .list-wrap{
+  width: 100%;
   overflow: hidden;
 
 }
@@ -257,10 +258,10 @@ li{list-style-type: none;}
     }
   .line{
     position: absolute;
-    top: 12px;
+    top: 10px;
     left: 50%;
     width: 2px;
-    height: 42px;
+    height: 24px;
     background: #ff944d;}
 }
 .show-wrap{
@@ -466,4 +467,11 @@ li{list-style-type: none;}
 }
 .subnav{
   display: none;
+}
+
+#activity{
+  .nav-list-3{
+    li{
+      width: 20%;}
+  }
 }
